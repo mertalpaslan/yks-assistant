@@ -1,0 +1,70 @@
+V1:
+	Navigasyon:
+		Ana Sayfa (Birincil Drover):
+			Toplam çözülen soru sayýsý, toplam etüt saati, toplam deneme sayýsý. (Günlük, haftalýk, aylýk, bugüne kadar, belli bir tarihte ya da tarihler arasýndaki)
+			Deneme netleri grafikleri (TYT / AYT). (Son ay içindeki, bugüne kadar, belirli tarihler arasýndaki aralýk seçenekleriyle) (X ekseni deneme deneme ve tarih tarih olacak)
+			Çalýþýlan saat grafiði. (Son ay, son hafta içindeki, bugüne kadar, belirli tarihler arasýndaki aralýk seçenekleriyle) (aralýk aylýk ise x ekseni hafta hafta, haftalýk ise gün gün, gerisi hafta hafta)
+			Çözülen soru grafiði. (Son ay, son hafta içindeki, bugüne kadar, belirli tarihler arasýndaki aralýk seçenekleriyle) (aralýk aylýk ise x ekseni hafta hafta, haftalýk ise gün gün, gerisi hafta hafta)
+			Sýnava hazýr olma istatistikleri. (Kavranan konuya göre yüzde)
+			Ders bitirme istatistikleri. (Kavranan konuya göre yüzde)
+
+		Sayaçlar (Birincil Drover):
+			YKS Geri Sayým (Tab):
+			Deneme Geri Sayým (Tab):
+				Bitince "Deneme Kaydý Ekle" butonu aracýlýðý ile modal açýlabilecek. Kullanýcý deneme istatistiklerini girebilecek.
+			Etüt Kronometre (Tab):
+				Bitince "Çalýþma Kaydý Ekle" butonu aracýlýðý ile modal açýlabilecek. Öðrenci çalýþtýðý konu ve soru istatistiðini girebilecek.
+
+		Ders Takibi (Birincil Drover):
+			Çalýþma / Etüt Kaydý (Ýkincil Drover):
+				Çalýþma / Etüt Kaydý Ekle (Tab):
+					Öðrenci çalýþtýðý konu ve soru istatistiðini girebilecek.
+				Çalýþma Kayýtlarý / Geçmiþi (Tab):
+					Hangi tarihte hangi konu ve soru kayýtlarý yapýldý gösterilecek. Ders, TYT / AYT ya da konu / soru filtrelemesi yapýlabilecek.
+			Sýrasýyla Dersler (Ýkincil Droverlar Halinde, Her Derse Ayrý Drover):
+				TYT (Tab):
+					Konu listeleri ve büyük alt baþlýklar yer alacak. Öðrenci kavradýðýný düþündüklerini check edebilecek; iyi, orta ya da kötü þeklinde kendisini puanlayabilecek.
+				AYT (Tab):
+					Konu listeleri ve büyük alt baþlýklar yer alacak. Öðrenci kavradýðýný düþündüklerini check edebilecek; iyi, orta ya da kötü þeklinde kendisini puanlayabilecek.
+
+		Deneme Takibi (Birincil Drover):
+			TYT (Tab):
+				TYT istatistikleri, genel gidiþat, ders ders istatistikler. Eðer isterse konu konu da (Ayarlarda tercih edebilecek konu kaydý tutmayý).
+				"Deneme Kaydý Ekle" butonu aracýlýðý ile modal açýlabilecek. Kullanýcý deneme istatistiklerini girebilecek.
+			AYT (Tab):
+				AYT istatistikleri, genel gidiþat, ders ders istatistikler. Eðer isterse konu konu da (Ayarlarda tercih edebilecek konu kaydý tutmayý).
+				"Deneme Kaydý Ekle" butonu aracýlýðý ile modal açýlabilecek. Kullanýcý deneme istatistiklerini girebilecek.
+			Deneme Kayýtlarý / Geçmiþi (Tab):
+				Geçmiþ deneme kayýtlarý listelenecek. Filtreleme uygulanabilecek (TYT / AYT).
+
+		Yapýlacaklar (Birincil Drover):
+			Aktif To Do List (Tab):
+				Anlýk to do list istatistiði (tamamlama yüzdesi vs.) gösterilecek.
+				Öðrenci deadline ile birlikte bir to do list oluþturabilecek.
+				To do listin öðeleri konu, soru, deneme ve diðer þeklinde olacak.
+				Check in olacak. Öðrenci zaman zaman girip belli sayýda soru vs yazabilecek. Hedefe ulaþýlýnca oto check. 
+				Yapýlan giriþler otomatik olarak çalýþma veya deneme geçmiþine kaydedilecek.
+				Birden fazla to do list oluþturulabilecek.
+				Bitir butonu olacak. Öðrenci to do listi tamamlamasa bile geçmiþe atabilecek.
+			Geçmiþ To Do Listler (Tab):
+				Geçmiþ To Do listleri sýralanacak. Tarihe göre filtreleme yapýlabilecek.
+				Ýstenirse geçmiþ to do listler tamamlanabilir ya da düzenlenebilir.
+		
+		Aklýma Takýlanlar (Birincil Drover):
+			Çözemediklerim (Tab):
+				Öðrenci çözemediði sorularýn fotoðrafýný çekip buraya koyabilecek. Hocasýna çözdürünce de check edebilecek.
+				Hocasýnýn çözümünün fotoðrafýný çekip ya da çözümü yazýp soru fotosuyla birlikte arþivine kaydedebilecek.
+				Eðer isterse hangi konu, ders olduðunu vs seçebilecek. Öyle kaydedebilecek.
+			Kavrayamadýklarým (Tab):
+				Öðrencinin kavrayamadýðý, aklýna yatmayan, mantýðýný oturtamadýðý kýsýmlarý liste olarak tutabileceði bir köþe (foto da ekleyebilir.).
+				Eðer isterse hangi konu, ders olduðunu vs seçebilecek. Öyle kaydedebilecek.
+			Arþiv / Geçmiþ (Tab):
+				Hepsi listelenecek. Filtrelemeler yapýlabilecek.
+		
+		Ýçerik (Birincil Drover):
+			Sýnava Dair (Tab):
+				Sýnav hakkýnda haberler, sýnav kurallarý, son dakika geliþmeler vs. burada yer alacak.
+			Bizden (Tab):
+				Sýnava ve hazýrlanma sürecine dair tavsiyeler. Baþýmýzdan neler geçti. Konu nasýl öðrenilir vs.
+
+		Ayarlar (Birincil Drover):
